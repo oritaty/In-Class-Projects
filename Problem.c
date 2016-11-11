@@ -3,7 +3,7 @@
 #include <string.h>
 #include <assert.h>
 #define MAX_NUMBER_OF_PROBLEMS 17
-#define MIN_NUMBER _OF_PROBLEMS 8
+#define MIN_NUMBER_OF_PROBLEMS 8
 #define MULTIPLE_CHOICE_ANSWERS 4
 #define TRUE_OR_FALSE_ANSWERS 2
 
