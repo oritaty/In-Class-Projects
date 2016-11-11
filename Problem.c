@@ -2,8 +2,8 @@
 #include <stdbool.h>
 #include <string.h>
 #include <assert.h>
-#define MAX_NUMBER_OF_PROBLEMS 17
-#define MIN_NUMBER_OF_PROBLEMS 8
+#define MAX_NUMBER_OF_PROBLEMS 17 //T/F type questions (1 switch on DE2-115 used) x 17.
+#define MIN_NUMBER_OF_PROBLEMS 8 //Multiple choice questions (2 switches on DE2-115 used) x 8.
 #define MULTIPLE_CHOICE_ANSWERS 4
 #define TRUE_OR_FALSE_ANSWERS 2
 
