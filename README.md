@@ -1,4 +1,4 @@
-Title: Project for ECE287 (Digital Circuit Design)<br/>
+<h2>Title: Project for ECE287 (Digital Circuit Design)</h2><br/>
 Member: Qi Yu, Yusuke Oritate<br/>
 Date: December 13, 2016<br/>
 Type: In-class project. <br/>
