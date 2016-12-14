@@ -1,0 +1,348 @@
+Simulator report for top
+Sat Nov 05 15:23:13 2016
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 20.0 ms      ;
+; Simulation Netlist Size     ; 177 nodes    ;
+; Simulation Coverage         ;      93.79 % ;
+; Total Number of Transitions ; 20023303     ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Functional ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Vector input source                                                                        ; top.vwf    ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      93.79 % ;
+; Total nodes checked                                 ; 177          ;
+; Total output ports checked                          ; 177          ;
+; Total output ports with complete 1/0-value coverage ; 166          ;
+; Total output ports with no 1/0-value coverage       ; 10           ;
+; Total output ports with no 1-value coverage         ; 10           ;
+; Total output ports with no 0-value coverage         ; 11           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++----------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                              ;
++-------------------------------------------+-------------------------------------------+------------------+
+; Node Name                                 ; Output Port Name                          ; Output Port Type ;
++-------------------------------------------+-------------------------------------------+------------------+
+; |top|HSYNC                                ; |top|HSYNC                                ; pin_out          ;
+; |top|CLK                                  ; |top|CLK                                  ; out              ;
+; |top|VSYNC                                ; |top|VSYNC                                ; pin_out          ;
+; |top|RGB_Sig[2]                           ; |top|RGB_Sig[2]                           ; pin_out          ;
+; |top|RGB_Sig[0]                           ; |top|RGB_Sig[0]                           ; pin_out          ;
+; |top|vga_control_module:inst|always0~0    ; |top|vga_control_module:inst|always0~0    ; out0             ;
+; |top|vga_control_module:inst|always0~1    ; |top|vga_control_module:inst|always0~1    ; out0             ;
+; |top|vga_control_module:inst|always0~2    ; |top|vga_control_module:inst|always0~2    ; out0             ;
+; |top|vga_control_module:inst|rH~0         ; |top|vga_control_module:inst|rH~0         ; out              ;
+; |top|vga_control_module:inst|rH~1         ; |top|vga_control_module:inst|rH~1         ; out              ;
+; |top|vga_control_module:inst|rV~0         ; |top|vga_control_module:inst|rV~0         ; out              ;
+; |top|vga_control_module:inst|rV~1         ; |top|vga_control_module:inst|rV~1         ; out              ;
+; |top|vga_control_module:inst|rV           ; |top|vga_control_module:inst|rV           ; regout           ;
+; |top|vga_control_module:inst|C2~2         ; |top|vga_control_module:inst|C2~2         ; out              ;
+; |top|vga_control_module:inst|C2~3         ; |top|vga_control_module:inst|C2~3         ; out              ;
+; |top|vga_control_module:inst|C2~4         ; |top|vga_control_module:inst|C2~4         ; out              ;
+; |top|vga_control_module:inst|C2~5         ; |top|vga_control_module:inst|C2~5         ; out              ;
+; |top|vga_control_module:inst|C2~6         ; |top|vga_control_module:inst|C2~6         ; out              ;
+; |top|vga_control_module:inst|C2~7         ; |top|vga_control_module:inst|C2~7         ; out              ;
+; |top|vga_control_module:inst|C2~8         ; |top|vga_control_module:inst|C2~8         ; out              ;
+; |top|vga_control_module:inst|C2~9         ; |top|vga_control_module:inst|C2~9         ; out              ;
+; |top|vga_control_module:inst|C2~10        ; |top|vga_control_module:inst|C2~10        ; out              ;
+; |top|vga_control_module:inst|C2~11        ; |top|vga_control_module:inst|C2~11        ; out              ;
+; |top|vga_control_module:inst|C2~14        ; |top|vga_control_module:inst|C2~14        ; out              ;
+; |top|vga_control_module:inst|C2~15        ; |top|vga_control_module:inst|C2~15        ; out              ;
+; |top|vga_control_module:inst|C2~16        ; |top|vga_control_module:inst|C2~16        ; out              ;
+; |top|vga_control_module:inst|C2~17        ; |top|vga_control_module:inst|C2~17        ; out              ;
+; |top|vga_control_module:inst|C2~18        ; |top|vga_control_module:inst|C2~18        ; out              ;
+; |top|vga_control_module:inst|C2~19        ; |top|vga_control_module:inst|C2~19        ; out              ;
+; |top|vga_control_module:inst|C2~20        ; |top|vga_control_module:inst|C2~20        ; out              ;
+; |top|vga_control_module:inst|C2~21        ; |top|vga_control_module:inst|C2~21        ; out              ;
+; |top|vga_control_module:inst|C2~22        ; |top|vga_control_module:inst|C2~22        ; out              ;
+; |top|vga_control_module:inst|C2~23        ; |top|vga_control_module:inst|C2~23        ; out              ;
+; |top|vga_control_module:inst|C1~0         ; |top|vga_control_module:inst|C1~0         ; out              ;
+; |top|vga_control_module:inst|C1~1         ; |top|vga_control_module:inst|C1~1         ; out              ;
+; |top|vga_control_module:inst|C1~2         ; |top|vga_control_module:inst|C1~2         ; out              ;
+; |top|vga_control_module:inst|C1~3         ; |top|vga_control_module:inst|C1~3         ; out              ;
+; |top|vga_control_module:inst|C1~4         ; |top|vga_control_module:inst|C1~4         ; out              ;
+; |top|vga_control_module:inst|C1~5         ; |top|vga_control_module:inst|C1~5         ; out              ;
+; |top|vga_control_module:inst|C1~6         ; |top|vga_control_module:inst|C1~6         ; out              ;
+; |top|vga_control_module:inst|C1~7         ; |top|vga_control_module:inst|C1~7         ; out              ;
+; |top|vga_control_module:inst|C1~8         ; |top|vga_control_module:inst|C1~8         ; out              ;
+; |top|vga_control_module:inst|C1~9         ; |top|vga_control_module:inst|C1~9         ; out              ;
+; |top|vga_control_module:inst|C1~10        ; |top|vga_control_module:inst|C1~10        ; out              ;
+; |top|vga_control_module:inst|C1~11        ; |top|vga_control_module:inst|C1~11        ; out              ;
+; |top|vga_control_module:inst|rRGB[2]      ; |top|vga_control_module:inst|rRGB[2]      ; regout           ;
+; |top|vga_control_module:inst|rRGB[0]      ; |top|vga_control_module:inst|rRGB[0]      ; regout           ;
+; |top|vga_control_module:inst|C1[10]       ; |top|vga_control_module:inst|C1[10]       ; regout           ;
+; |top|vga_control_module:inst|C1[9]        ; |top|vga_control_module:inst|C1[9]        ; regout           ;
+; |top|vga_control_module:inst|C1[8]        ; |top|vga_control_module:inst|C1[8]        ; regout           ;
+; |top|vga_control_module:inst|C1[7]        ; |top|vga_control_module:inst|C1[7]        ; regout           ;
+; |top|vga_control_module:inst|C1[6]        ; |top|vga_control_module:inst|C1[6]        ; regout           ;
+; |top|vga_control_module:inst|C1[5]        ; |top|vga_control_module:inst|C1[5]        ; regout           ;
+; |top|vga_control_module:inst|C1[4]        ; |top|vga_control_module:inst|C1[4]        ; regout           ;
+; |top|vga_control_module:inst|C1[3]        ; |top|vga_control_module:inst|C1[3]        ; regout           ;
+; |top|vga_control_module:inst|C1[2]        ; |top|vga_control_module:inst|C1[2]        ; regout           ;
+; |top|vga_control_module:inst|C1[1]        ; |top|vga_control_module:inst|C1[1]        ; regout           ;
+; |top|vga_control_module:inst|C1[0]        ; |top|vga_control_module:inst|C1[0]        ; regout           ;
+; |top|vga_control_module:inst|C2[9]        ; |top|vga_control_module:inst|C2[9]        ; regout           ;
+; |top|vga_control_module:inst|C2[8]        ; |top|vga_control_module:inst|C2[8]        ; regout           ;
+; |top|vga_control_module:inst|C2[7]        ; |top|vga_control_module:inst|C2[7]        ; regout           ;
+; |top|vga_control_module:inst|C2[6]        ; |top|vga_control_module:inst|C2[6]        ; regout           ;
+; |top|vga_control_module:inst|C2[5]        ; |top|vga_control_module:inst|C2[5]        ; regout           ;
+; |top|vga_control_module:inst|C2[4]        ; |top|vga_control_module:inst|C2[4]        ; regout           ;
+; |top|vga_control_module:inst|C2[3]        ; |top|vga_control_module:inst|C2[3]        ; regout           ;
+; |top|vga_control_module:inst|C2[2]        ; |top|vga_control_module:inst|C2[2]        ; regout           ;
+; |top|vga_control_module:inst|C2[1]        ; |top|vga_control_module:inst|C2[1]        ; regout           ;
+; |top|vga_control_module:inst|C2[0]        ; |top|vga_control_module:inst|C2[0]        ; regout           ;
+; |top|vga_control_module:inst|rH           ; |top|vga_control_module:inst|rH           ; regout           ;
+; |top|vga_control_module:inst|LessThan0~0  ; |top|vga_control_module:inst|LessThan0~0  ; out0             ;
+; |top|vga_control_module:inst|LessThan0~1  ; |top|vga_control_module:inst|LessThan0~1  ; out0             ;
+; |top|vga_control_module:inst|LessThan0~2  ; |top|vga_control_module:inst|LessThan0~2  ; out0             ;
+; |top|vga_control_module:inst|LessThan0~3  ; |top|vga_control_module:inst|LessThan0~3  ; out0             ;
+; |top|vga_control_module:inst|LessThan0~4  ; |top|vga_control_module:inst|LessThan0~4  ; out0             ;
+; |top|vga_control_module:inst|LessThan0~5  ; |top|vga_control_module:inst|LessThan0~5  ; out0             ;
+; |top|vga_control_module:inst|LessThan0~6  ; |top|vga_control_module:inst|LessThan0~6  ; out0             ;
+; |top|vga_control_module:inst|LessThan0~7  ; |top|vga_control_module:inst|LessThan0~7  ; out0             ;
+; |top|vga_control_module:inst|LessThan0~8  ; |top|vga_control_module:inst|LessThan0~8  ; out0             ;
+; |top|vga_control_module:inst|LessThan0~9  ; |top|vga_control_module:inst|LessThan0~9  ; out0             ;
+; |top|vga_control_module:inst|LessThan0~10 ; |top|vga_control_module:inst|LessThan0~10 ; out0             ;
+; |top|vga_control_module:inst|LessThan0~11 ; |top|vga_control_module:inst|LessThan0~11 ; out0             ;
+; |top|vga_control_module:inst|LessThan0~12 ; |top|vga_control_module:inst|LessThan0~12 ; out0             ;
+; |top|vga_control_module:inst|LessThan0~13 ; |top|vga_control_module:inst|LessThan0~13 ; out0             ;
+; |top|vga_control_module:inst|LessThan0~14 ; |top|vga_control_module:inst|LessThan0~14 ; out0             ;
+; |top|vga_control_module:inst|LessThan0~15 ; |top|vga_control_module:inst|LessThan0~15 ; out0             ;
+; |top|vga_control_module:inst|LessThan0~16 ; |top|vga_control_module:inst|LessThan0~16 ; out0             ;
+; |top|vga_control_module:inst|LessThan1~0  ; |top|vga_control_module:inst|LessThan1~0  ; out0             ;
+; |top|vga_control_module:inst|LessThan1~1  ; |top|vga_control_module:inst|LessThan1~1  ; out0             ;
+; |top|vga_control_module:inst|LessThan1~2  ; |top|vga_control_module:inst|LessThan1~2  ; out0             ;
+; |top|vga_control_module:inst|LessThan1~3  ; |top|vga_control_module:inst|LessThan1~3  ; out0             ;
+; |top|vga_control_module:inst|LessThan1~4  ; |top|vga_control_module:inst|LessThan1~4  ; out0             ;
+; |top|vga_control_module:inst|LessThan1~5  ; |top|vga_control_module:inst|LessThan1~5  ; out0             ;
+; |top|vga_control_module:inst|LessThan1~6  ; |top|vga_control_module:inst|LessThan1~6  ; out0             ;
+; |top|vga_control_module:inst|LessThan1~7  ; |top|vga_control_module:inst|LessThan1~7  ; out0             ;
+; |top|vga_control_module:inst|LessThan1~8  ; |top|vga_control_module:inst|LessThan1~8  ; out0             ;
+; |top|vga_control_module:inst|LessThan1~9  ; |top|vga_control_module:inst|LessThan1~9  ; out0             ;
+; |top|vga_control_module:inst|LessThan1~10 ; |top|vga_control_module:inst|LessThan1~10 ; out0             ;
+; |top|vga_control_module:inst|LessThan1~11 ; |top|vga_control_module:inst|LessThan1~11 ; out0             ;
+; |top|vga_control_module:inst|LessThan1~12 ; |top|vga_control_module:inst|LessThan1~12 ; out0             ;
+; |top|vga_control_module:inst|LessThan1~13 ; |top|vga_control_module:inst|LessThan1~13 ; out0             ;
+; |top|vga_control_module:inst|LessThan1~14 ; |top|vga_control_module:inst|LessThan1~14 ; out0             ;
+; |top|vga_control_module:inst|LessThan1~15 ; |top|vga_control_module:inst|LessThan1~15 ; out0             ;
+; |top|vga_control_module:inst|LessThan2~0  ; |top|vga_control_module:inst|LessThan2~0  ; out0             ;
+; |top|vga_control_module:inst|LessThan2~1  ; |top|vga_control_module:inst|LessThan2~1  ; out0             ;
+; |top|vga_control_module:inst|LessThan2~2  ; |top|vga_control_module:inst|LessThan2~2  ; out0             ;
+; |top|vga_control_module:inst|LessThan2~3  ; |top|vga_control_module:inst|LessThan2~3  ; out0             ;
+; |top|vga_control_module:inst|LessThan2~4  ; |top|vga_control_module:inst|LessThan2~4  ; out0             ;
+; |top|vga_control_module:inst|LessThan2~5  ; |top|vga_control_module:inst|LessThan2~5  ; out0             ;
+; |top|vga_control_module:inst|LessThan2~6  ; |top|vga_control_module:inst|LessThan2~6  ; out0             ;
+; |top|vga_control_module:inst|LessThan2~7  ; |top|vga_control_module:inst|LessThan2~7  ; out0             ;
+; |top|vga_control_module:inst|LessThan3~0  ; |top|vga_control_module:inst|LessThan3~0  ; out0             ;
+; |top|vga_control_module:inst|LessThan3~1  ; |top|vga_control_module:inst|LessThan3~1  ; out0             ;
+; |top|vga_control_module:inst|LessThan3~2  ; |top|vga_control_module:inst|LessThan3~2  ; out0             ;
+; |top|vga_control_module:inst|LessThan3~3  ; |top|vga_control_module:inst|LessThan3~3  ; out0             ;
+; |top|vga_control_module:inst|LessThan3~4  ; |top|vga_control_module:inst|LessThan3~4  ; out0             ;
+; |top|vga_control_module:inst|LessThan3~5  ; |top|vga_control_module:inst|LessThan3~5  ; out0             ;
+; |top|vga_control_module:inst|LessThan3~6  ; |top|vga_control_module:inst|LessThan3~6  ; out0             ;
+; |top|vga_control_module:inst|LessThan3~7  ; |top|vga_control_module:inst|LessThan3~7  ; out0             ;
+; |top|vga_control_module:inst|LessThan3~8  ; |top|vga_control_module:inst|LessThan3~8  ; out0             ;
+; |top|vga_control_module:inst|LessThan3~9  ; |top|vga_control_module:inst|LessThan3~9  ; out0             ;
+; |top|vga_control_module:inst|LessThan3~10 ; |top|vga_control_module:inst|LessThan3~10 ; out0             ;
+; |top|vga_control_module:inst|LessThan3~11 ; |top|vga_control_module:inst|LessThan3~11 ; out0             ;
+; |top|vga_control_module:inst|Add0~0       ; |top|vga_control_module:inst|Add0~0       ; out0             ;
+; |top|vga_control_module:inst|Add0~1       ; |top|vga_control_module:inst|Add0~1       ; out0             ;
+; |top|vga_control_module:inst|Add0~2       ; |top|vga_control_module:inst|Add0~2       ; out0             ;
+; |top|vga_control_module:inst|Add0~3       ; |top|vga_control_module:inst|Add0~3       ; out0             ;
+; |top|vga_control_module:inst|Add0~4       ; |top|vga_control_module:inst|Add0~4       ; out0             ;
+; |top|vga_control_module:inst|Add0~5       ; |top|vga_control_module:inst|Add0~5       ; out0             ;
+; |top|vga_control_module:inst|Add0~6       ; |top|vga_control_module:inst|Add0~6       ; out0             ;
+; |top|vga_control_module:inst|Add0~7       ; |top|vga_control_module:inst|Add0~7       ; out0             ;
+; |top|vga_control_module:inst|Add0~8       ; |top|vga_control_module:inst|Add0~8       ; out0             ;
+; |top|vga_control_module:inst|Add0~9       ; |top|vga_control_module:inst|Add0~9       ; out0             ;
+; |top|vga_control_module:inst|Add0~10      ; |top|vga_control_module:inst|Add0~10      ; out0             ;
+; |top|vga_control_module:inst|Add0~11      ; |top|vga_control_module:inst|Add0~11      ; out0             ;
+; |top|vga_control_module:inst|Add0~12      ; |top|vga_control_module:inst|Add0~12      ; out0             ;
+; |top|vga_control_module:inst|Add0~13      ; |top|vga_control_module:inst|Add0~13      ; out0             ;
+; |top|vga_control_module:inst|Add0~14      ; |top|vga_control_module:inst|Add0~14      ; out0             ;
+; |top|vga_control_module:inst|Add0~15      ; |top|vga_control_module:inst|Add0~15      ; out0             ;
+; |top|vga_control_module:inst|Add0~16      ; |top|vga_control_module:inst|Add0~16      ; out0             ;
+; |top|vga_control_module:inst|Add0~17      ; |top|vga_control_module:inst|Add0~17      ; out0             ;
+; |top|vga_control_module:inst|Add0~18      ; |top|vga_control_module:inst|Add0~18      ; out0             ;
+; |top|vga_control_module:inst|Add1~0       ; |top|vga_control_module:inst|Add1~0       ; out0             ;
+; |top|vga_control_module:inst|Add1~1       ; |top|vga_control_module:inst|Add1~1       ; out0             ;
+; |top|vga_control_module:inst|Add1~2       ; |top|vga_control_module:inst|Add1~2       ; out0             ;
+; |top|vga_control_module:inst|Add1~3       ; |top|vga_control_module:inst|Add1~3       ; out0             ;
+; |top|vga_control_module:inst|Add1~4       ; |top|vga_control_module:inst|Add1~4       ; out0             ;
+; |top|vga_control_module:inst|Add1~5       ; |top|vga_control_module:inst|Add1~5       ; out0             ;
+; |top|vga_control_module:inst|Add1~6       ; |top|vga_control_module:inst|Add1~6       ; out0             ;
+; |top|vga_control_module:inst|Add1~7       ; |top|vga_control_module:inst|Add1~7       ; out0             ;
+; |top|vga_control_module:inst|Add1~8       ; |top|vga_control_module:inst|Add1~8       ; out0             ;
+; |top|vga_control_module:inst|Add1~9       ; |top|vga_control_module:inst|Add1~9       ; out0             ;
+; |top|vga_control_module:inst|Add1~10      ; |top|vga_control_module:inst|Add1~10      ; out0             ;
+; |top|vga_control_module:inst|Add1~11      ; |top|vga_control_module:inst|Add1~11      ; out0             ;
+; |top|vga_control_module:inst|Add1~12      ; |top|vga_control_module:inst|Add1~12      ; out0             ;
+; |top|vga_control_module:inst|Add1~13      ; |top|vga_control_module:inst|Add1~13      ; out0             ;
+; |top|vga_control_module:inst|Add1~14      ; |top|vga_control_module:inst|Add1~14      ; out0             ;
+; |top|vga_control_module:inst|Add1~15      ; |top|vga_control_module:inst|Add1~15      ; out0             ;
+; |top|vga_control_module:inst|Add1~16      ; |top|vga_control_module:inst|Add1~16      ; out0             ;
+; |top|vga_control_module:inst|Add1~17      ; |top|vga_control_module:inst|Add1~17      ; out0             ;
+; |top|vga_control_module:inst|Add1~18      ; |top|vga_control_module:inst|Add1~18      ; out0             ;
+; |top|vga_control_module:inst|Add1~19      ; |top|vga_control_module:inst|Add1~19      ; out0             ;
+; |top|vga_control_module:inst|Add1~20      ; |top|vga_control_module:inst|Add1~20      ; out0             ;
+; |top|vga_control_module:inst|Equal0~0     ; |top|vga_control_module:inst|Equal0~0     ; out0             ;
+; |top|vga_control_module:inst|Equal1~0     ; |top|vga_control_module:inst|Equal1~0     ; out0             ;
+; |top|vga_control_module:inst|Equal2~0     ; |top|vga_control_module:inst|Equal2~0     ; out0             ;
+; |top|vga_control_module:inst|Equal3~0     ; |top|vga_control_module:inst|Equal3~0     ; out0             ;
++-------------------------------------------+-------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                       ;
++--------------------------------------+--------------------------------------+------------------+
+; Node Name                            ; Output Port Name                     ; Output Port Type ;
++--------------------------------------+--------------------------------------+------------------+
+; |top|RGB_Sig[1]                      ; |top|RGB_Sig[1]                      ; pin_out          ;
+; |top|vga_control_module:inst|C2~0    ; |top|vga_control_module:inst|C2~0    ; out              ;
+; |top|vga_control_module:inst|C2~1    ; |top|vga_control_module:inst|C2~1    ; out              ;
+; |top|vga_control_module:inst|C2~12   ; |top|vga_control_module:inst|C2~12   ; out              ;
+; |top|vga_control_module:inst|C2~13   ; |top|vga_control_module:inst|C2~13   ; out              ;
+; |top|vga_control_module:inst|C1[11]  ; |top|vga_control_module:inst|C1[11]  ; regout           ;
+; |top|vga_control_module:inst|C2[11]  ; |top|vga_control_module:inst|C2[11]  ; regout           ;
+; |top|vga_control_module:inst|C2[10]  ; |top|vga_control_module:inst|C2[10]  ; regout           ;
+; |top|vga_control_module:inst|Add0~19 ; |top|vga_control_module:inst|Add0~19 ; out0             ;
+; |top|vga_control_module:inst|Add0~20 ; |top|vga_control_module:inst|Add0~20 ; out0             ;
++--------------------------------------+--------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                       ;
++--------------------------------------+--------------------------------------+------------------+
+; Node Name                            ; Output Port Name                     ; Output Port Type ;
++--------------------------------------+--------------------------------------+------------------+
+; |top|RSTn                            ; |top|RSTn                            ; out              ;
+; |top|RGB_Sig[1]                      ; |top|RGB_Sig[1]                      ; pin_out          ;
+; |top|vga_control_module:inst|C2~0    ; |top|vga_control_module:inst|C2~0    ; out              ;
+; |top|vga_control_module:inst|C2~1    ; |top|vga_control_module:inst|C2~1    ; out              ;
+; |top|vga_control_module:inst|C2~12   ; |top|vga_control_module:inst|C2~12   ; out              ;
+; |top|vga_control_module:inst|C2~13   ; |top|vga_control_module:inst|C2~13   ; out              ;
+; |top|vga_control_module:inst|C1[11]  ; |top|vga_control_module:inst|C1[11]  ; regout           ;
+; |top|vga_control_module:inst|C2[11]  ; |top|vga_control_module:inst|C2[11]  ; regout           ;
+; |top|vga_control_module:inst|C2[10]  ; |top|vga_control_module:inst|C2[10]  ; regout           ;
+; |top|vga_control_module:inst|Add0~19 ; |top|vga_control_module:inst|Add0~19 ; out0             ;
+; |top|vga_control_module:inst|Add0~20 ; |top|vga_control_module:inst|Add0~20 ; out0             ;
++--------------------------------------+--------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Processing started: Sat Nov 05 15:22:13 2016
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off top -c top
+Info: Using vector source file "C:/Users/Administrator/Desktop/VGATEST/top.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      93.79 %
+Info: Number of transitions in simulation is 20023303
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 142 megabytes
+    Info: Processing ended: Sat Nov 05 15:23:13 2016
+    Info: Elapsed time: 00:01:00
+    Info: Total CPU time (on all processors): 00:01:00
+
+

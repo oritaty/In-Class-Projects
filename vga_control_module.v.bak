@@ -1,0 +1,76 @@
+module vga_control_module
+(
+  input CLK,
+  input RSTn,
+  output [2:0]RGB_Sig,
+  output HSYNC,
+  output VSYNC
+
+ );
+
+ /**************************************/
+
+ // Height , width, x-offset and y-offset
+ parameter _X = 'd800, _Y = 'd600, _XOFF = 'd0, _YOFF = 'd0;
+
+ /**************************************/
+
+ reg [2:0]rRGB;
+ reg [11:0]C1;
+ reg [11:0]C2;
+ reg rH,rV;
+ reg [11:0]xpos;
+ reg [11:0]ypos;
+ 
+ /******************************************************/ 
+ always @ ( posedge CLK or negedge RSTn )
+ if( !RSTn ) begin
+	rRGB <= 3'd0;
+	C1 <= 'd0;
+	C2 <= 'd0;
+	rH <= 1'b1;
+	rV <= 1'b1;
+ end
+ else begin
+	/******************************************************/ 
+	if( ((C1 > (128 + 88 + _XOFF)) && (C1 <= (128 + 88 + _XOFF +_X)) ) && ( (C2 > (4 + 23 + _YOFF)) && (C2 <= (4 + 23 + _YOFF + _Y) )) ) begin
+		if( (xpos>=200)&&(xpos<=600)&&(ypos>=150)&&(ypos<=450) ) begin
+			rRGB <= 'b010;
+		end
+		else begin
+			rRGB <= 'b111;
+		end 
+	end
+	else begin 
+		rRGB <= 'b000;	
+	end
+	
+	xpos <= C1 - 'd216;
+	ypos <= C2 - 'd27;
+	
+	/******************************************************/ 	
+	if( C1 == (256+_X) ) rH <= 1'b0;
+	else if( C1 == 128 ) rH <= 1'b1;
+
+	if( C2 == (28+_Y) ) rV <= 1'b0;
+	else if( C2 == 4 ) rV <= 1'b1;
+
+	if( C2 == (28+_Y) ) C2 <= 10'd1;
+	else if( C1 == (256+_X) ) C2 <= C2 + 1'b1;
+
+	if( C1 == (256+_X) ) C1 <= 11'd1;
+	else 
+	C1 <= C1 + 1'b1;
+	/******************************************************/ 
+		
+ end
+ 
+
+ /****************************/
+
+ assign RGB_Sig = rRGB;
+ assign HSYNC = rH;
+ assign VSYNC = rV;
+
+ /*****************************/
+ endmodule

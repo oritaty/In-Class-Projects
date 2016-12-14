@@ -1,0 +1,31 @@
+DEPTH = 24; -- The size of data in bits 
+WIDTH = 8; -- The size of memory in words 
+ADDRESS_RADIX = UNS; -- The radix for address values 
+DATA_RADIX = HEX; -- The radix for data values 
+CONTENT -- start of (address : data pairs)
+BEGIN 
+0	:	18	;										
+1	:	24	;										
+2	:	5A 	;										
+3	:	81	;										
+4	:	A5 	;										
+5	:	5A 	;										
+6	:	3C 	;										
+7	:	18	;										
+8	:	FF 	;										
+9	:	FF 	;										
+10	:	3C 	;										
+11	:	3C 	;										
+12	:	3C 	;										
+13	:	66	;										
+14	:	66	;										
+15	:	EE	;										
+16	:	3C 	;										
+17	:	42	;										
+18	:	5A 	;										
+19	:	81	;										
+20	:	A5 	;										
+21	:	5A 	;										
+22	:	24	;										
+23	:	18	;
+END; 

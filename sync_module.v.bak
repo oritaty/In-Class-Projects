@@ -1,0 +1,50 @@
+module sync_module
+  (
+		input CLK,
+		input RSTn,
+		output [11:0]qC1,
+		output [11:0]qC2,
+		output HSYNC,
+		output VSYNC
+  );
+
+ reg [11:0]C1;
+ reg [11:0]C2;
+ reg rH,rV;
+ 
+  parameter _X = 'd800,   _Y = 'd600 ;
+
+ always @ ( posedge CLK or negedge RSTn )
+ if( !RSTn ) begin
+	C1 <= 'd1056;
+	C2 <= 'd628;
+	rH <= 1'b1;
+	rV <= 1'b1;
+ end
+
+ else begin
+	if( C1 == (1056) ) rH <= 1'b0;
+	else if( C1 == 128 ) rH <= 1'b1;
+
+	if( C2 == (628) ) rV <= 1'b0;
+	else if( C2 == 4 ) rV <= 1'b1;
+
+	if( C2 == (628) ) C2 <= 10'd1;
+	else if( C1 == (1056) ) C2 <= C2 + 1'b1;
+
+	if( C1 == (1056) ) C1 <= 11'd1;
+	else C1 <= C1 + 1'b1;
+ end
+
+ /********************************/
+
+ assign qC1 = C1;
+ assign qC2 = C2;
+
+ assign HSYNC = rH;
+ assign VSYNC = rV;
+
+ /********************************/
+
+
+endmodule
