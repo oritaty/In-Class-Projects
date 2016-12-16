@@ -27,8 +27,8 @@ Description: Quiz application implemented by using VHDL and DE2-115 board.<br/>
 * KEY2 -- <br/>
 * KEY1 -- <br/>
 * KEY0 -- <br/>
-**_For more details, refer to the video link below._**<br/>
 
+**_For more details, refer to the video link below._**<br/>
 <h2>Video (Demo)</h2>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/UgrsRJFS7Uc/0.jpg)](https://www.youtube.com/watch?v=UgrsRJFS7Uc)<br/>
 URL: https://www.youtube.com/watch?v=UgrsRJFS7Uc&feature=youtu.be<br/>
