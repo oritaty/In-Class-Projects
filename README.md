@@ -1,8 +1,9 @@
-<h2>ECE287 Final Project (Digital Circuit Design)</h2>
+<h1>ECE287 Final Project (Digital Circuit Design)</h1>
 Member: Qi Yu, Yusuke Oritate<br/>
 Date: December 13, 2016<br/>
 Type: In-class project. <br/>
 Description: Quiz application implemented by using VHDL and DE2-115 board.<br/>
 Environment: Windows or Linux operating system with suitable Verilog compiler (such as iVerilog) downloaded.<br/>
-Instruction: //Attatch video here.<br/>https://github.com/oritaty/In-Class-Projects/edit/master/README.md
-
+<h2>Instruction</h2>
+<h2>Video (Demo)</h2>
+Link: https://www.youtube.com/watch?v=UgrsRJFS7Uc&feature=youtu.be<br/>
