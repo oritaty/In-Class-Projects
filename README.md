@@ -7,7 +7,7 @@ Environment: Windows or Linux operating system with suitable Verilog compiler (e
 **Note: All the screenshots for the .bsf files (schematic) can be found at here:** https://github.com/oritaty/In-Class-Projects/tree/master/pics<br/>
 <h2>Recomennded Environment</h2>
  * Hardware: <br/>
- * Software: Windows or Linux operating system with suitable Verilog compiler (e.g. iVerilog) downloaded.<br/>
+ * Software: Windows or Linux operating system with suitable Verilog compiler (e.g. iVerilog) downloaded.
 <h2>Instruction</h2>
 <h2>Video (Demo)</h2>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/UgrsRJFS7Uc/0.jpg)](https://www.youtube.com/watch?v=UgrsRJFS7Uc)<br/>
