@@ -8,5 +8,3 @@ Environment: Windows or Linux operating system with suitable Verilog compiler (e
 <h2>Video (Demo)</h2>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/UgrsRJFS7Uc/0.jpg)](https://www.youtube.com/watch?v=UgrsRJFS7Uc)<br/>
 Link: https://www.youtube.com/watch?v=UgrsRJFS7Uc&feature=youtu.be<br/>
-
-[![Everything Is AWESOME](http://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
