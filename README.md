@@ -13,7 +13,7 @@ Description: Quiz application implemented by using VHDL and DE2-115 board.<br/>
 1) Downloads the whole project folder from https://github.com/oritaty/In-Class-Projects(Downloads .zip file from 'Clone or download' button located on top left corner).<br/>
 2) Unzip the folder.<br/>
 3) Open the project by choosing **_'top.qpf' file_**.<br/>
-4) On the Project Navigator located on left side of Quartus II IDE, double click the entry called **_'top'_**.
+4) On the Project Navigator located on left side of Quartus II IDE, double click the entry called **_'top'_**.<br/>
 5) The top entry schematic page will be displayed.<br/>
 6) Save files and compile.<br/>
 7) After compilation (never change PIN assignment), open the Programmer window from the Tool tub.<br/>
