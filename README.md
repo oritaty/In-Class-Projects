@@ -11,9 +11,9 @@ Description: Quiz application implemented by using VHDL and DE2-115 board.<br/>
 
 <h2>Instruction</h2>
 1, Import this project file into Quartus 2 IDE.<br/>
-2, Save and compile.<br/>
-3, <br/>
-4, <br/>
+2, Save files and compile.<br/>
+3, After compile the files (never change PIN assignment), open the Programmer window from the Tool tub.<br/>
+4, Incorporate the output file into the window, <br/>
 5, <br/>
 6, <br/>
 <h2>Video (Demo)</h2>
