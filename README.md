@@ -16,7 +16,7 @@ Description: Quiz application implemented by using VHDL and DE2-115 board.<br/>
 4) On the Project Navigator located on left side of Quartus II IDE, double click the entry called **_'top'_**.<br/>
 5) The top entry schematic page will be displayed.<br/>
 6) Save files and compile.<br/>
-7) After compilation (never change PIN assignment), open the Programmer window from the Tool tub.<br/>
+7) After compilation (**_never change PIN assignment_**), open the Programmer window from the Tool tub.<br/>
 8) Incorporate the output file into the window from the ADD FILE... button. <br/>
 9) Click the 'Hardware Setup...' button on the top left corner of the window and select the hardware (choose USB-Blaster [USB-0]' this time).<br/>
 10) Click the FPGA icon appeared on the lower half of the window, then click 'Start'.<br/>
@@ -24,9 +24,9 @@ Description: Quiz application implemented by using VHDL and DE2-115 board.<br/>
 12) You will now see a set of 10 arithmatic equations (four basic operations) on the left side of the monitor, as well as a set of 10 x 4 cancidate answers on the right.<br/>
 13) There are four possible operations for users to play this quiz application:<br/>
 * KEY3 -- Resume a new game (can be envoked at any process of the application also allows to abandon a game currently played).<br/>
-* KEY2 -- <br/>
-* KEY1 -- <br/>
-* KEY0 -- <br/>
+* KEY2 -- Show/hide the current grade<br/>
+* KEY1 -- Go to next question.<br/>
+* KEY0 -- Submit the answer of your choice for the current problem.<br/>
 
 **_Note: For more details, refer to the video link below._**<br/>
 <h2>Video (Demo)</h2>
