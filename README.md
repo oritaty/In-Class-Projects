@@ -10,8 +10,8 @@ Description: Quiz application implemented by using VHDL and DE2-115 board.<br/>
 * **_Software_**: Windows or Linux operating system preffered, with suitable Verilog compiler (Ex. iVerilog) downloaded.<br/>
 
 <h2>Instruction</h2>
-1, <br/>
-2, <br/>
+1, Import this project file into Quartus 2 IDE.<br/>
+2, Save and compile.<br/>
 3, <br/>
 4, <br/>
 5, <br/>
