@@ -12,6 +12,10 @@ Description: Quiz application implemented by using VHDL and DE2-115 board.<br/>
 <h2>Instruction</h2>
 1, <br/>
 2, <br/>
+3, <br/>
+4, <br/>
+5, <br/>
+6, <br/>
 <h2>Video (Demo)</h2>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/UgrsRJFS7Uc/0.jpg)](https://www.youtube.com/watch?v=UgrsRJFS7Uc)<br/>
 URL: https://www.youtube.com/watch?v=UgrsRJFS7Uc&feature=youtu.be<br/>
