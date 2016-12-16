@@ -21,7 +21,8 @@ Description: Quiz application implemented by using VHDL and DE2-115 board.<br/>
 9) Click the 'Hardware Setup...' button on the top left corner of the window and select the hardware (choose USB-Blaster [USB-0]' this time).<br/>
 10) Click the FPGA icon appeared on the lower half of the window, then click 'Start'.<br/>
 11) Turn on the PGA monitor.<br/>
-12) You will now see a set of 10 arithmatic equations as well as  (four basic).<br/>
+12) You will now see a set of 10 arithmatic equations (four basic operations) on the left side of the monitor, as well as a set of 10 x 4 cancidate answers on the right.<br/>
+13) 
 
 <h2>Video (Demo)</h2>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/UgrsRJFS7Uc/0.jpg)](https://www.youtube.com/watch?v=UgrsRJFS7Uc)<br/>
