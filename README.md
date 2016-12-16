@@ -9,7 +9,7 @@ Description: Quiz application implemented by using VHDL and DE2-115 board.<br/>
 * Hardware: 
 PGA monitor and DE2-115 board connected to the computer through PGA cable and USB blaster respectively.
 * Software: 
- * Windows or Linux operating system with suitable Verilog compiler (e.g. iVerilog) downloaded.
+Windows or Linux operating system with suitable Verilog compiler (e.g. iVerilog) downloaded.
 <h2>Instruction</h2>
 1, <br/>
 2, <br/>
