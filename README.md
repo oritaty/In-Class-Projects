@@ -3,7 +3,7 @@ Member: Qi Yu, Yusuke Oritate<br/>
 Date: December 13, 2016<br/>
 Type: In-class project. <br/>
 Description: Quiz application implemented by using VHDL and DE2-115 board.<br/>
-Environment: Windows or Linux operating system with suitable Verilog compiler (such as iVerilog) downloaded.<br/>
+Environment: Windows or Linux operating system with suitable Verilog compiler (e.g. iVerilog) downloaded.<br/>
 <h2>Instruction</h2>
 <h2>Video (Demo)</h2>
 Link: https://www.youtube.com/watch?v=UgrsRJFS7Uc&feature=youtu.be<br/>
