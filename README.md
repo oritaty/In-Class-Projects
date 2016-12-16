@@ -10,19 +10,18 @@ Description: Quiz application implemented by using VHDL and DE2-115 board.<br/>
 * **_Software_**: Windows or Linux operating system preffered, with suitable Verilog compiler (Ex. iVerilog) downloaded.<br/>
 
 <h2>Instruction</h2>
-
 1) Downloads the whole project folder from https://github.com/oritaty/In-Class-Projects(Downloads .zip file from 'Clone or download' button located on top left corner).<br/>
-2, Unzip the folder.<br/>
-3, Open the project by choosing **_'top.qpf' file_**.<br/>
-4, On the Project Navigator located on left side of Quartus II IDE, double click the entry called **_'top'_**.
-5, The top entry schematic page will be displayed.<br/>
-6, Save files and compile.<br/>
-7, After compilation (never change PIN assignment), open the Programmer window from the Tool tub.<br/>
-8, Incorporate the output file into the window from the ADD FILE... button. <br/>
-9, Click the 'Hardware Setup...' button on the top left corner of the window and select the hardware (choose USB-Blaster [USB-0]' this time).<br/>
-10, Click the FPGA icon appeared on the lower half of the window, then click 'Start'.<br/>
-11, Turn on the PGA monitor.<br/>
-12, You will now see a set of 10 arithmatic equations as well as  (four basic).<br/>
+2) Unzip the folder.<br/>
+3) Open the project by choosing **_'top.qpf' file_**.<br/>
+4) On the Project Navigator located on left side of Quartus II IDE, double click the entry called **_'top'_**.
+5) The top entry schematic page will be displayed.<br/>
+6) Save files and compile.<br/>
+7) After compilation (never change PIN assignment), open the Programmer window from the Tool tub.<br/>
+8) Incorporate the output file into the window from the ADD FILE... button. <br/>
+9) Click the 'Hardware Setup...' button on the top left corner of the window and select the hardware (choose USB-Blaster [USB-0]' this time).<br/>
+10) Click the FPGA icon appeared on the lower half of the window, then click 'Start'.<br/>
+11) Turn on the PGA monitor.<br/>
+12) You will now see a set of 10 arithmatic equations as well as  (four basic).<br/>
 
 <h2>Video (Demo)</h2>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/UgrsRJFS7Uc/0.jpg)](https://www.youtube.com/watch?v=UgrsRJFS7Uc)<br/>
