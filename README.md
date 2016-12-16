@@ -5,7 +5,7 @@ Date: December 13, 2016<br/>
 Type: In-class project. <br/>
 Description: Quiz application implemented by using VHDL and DE2-115 board.<br/>
 **_Note: All the screenshots for the .bsf files (schematic) can be found at here:_** https://github.com/oritaty/In-Class-Projects/tree/master/pics<br/>
-<h2>Recomennded Environment</h2>
+<h2>Required Environment</h2>
 * **_Hardware_**: PGA monitor and DE2/DE2-115 board connected to the computer through PGA cable and USB blaster respectively.
 * **_Software_**: Windows or Linux operating system preffered, with suitable Verilog compiler (Ex. iVerilog) downloaded.<br/>
 
