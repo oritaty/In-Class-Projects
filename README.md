@@ -10,10 +10,16 @@ Description: Quiz application implemented by using VHDL and DE2-115 board.<br/>
 * **_Software_**: Windows or Linux operating system preffered, with suitable Verilog compiler (Ex. iVerilog) downloaded.<br/>
 
 <h2>Instruction</h2>
-1, Import this project file into Quartus 2 IDE.<br/>
+1, Downloads the whole project folder from https://github.com/oritaty/In-Class-Projects(Downloads .zip file from 'Clone or download' button located on top left corner).<br/>
+2, Open Quartus 2 IDE (version 14.0 or later recommended).<br/>
+3, Create a new project from 'New Project Wizard'.<br/>
+4, Name 
+
+
+1, Import this project directory into Quartus 2 IDE.<br/>
 2, Save files and compile.<br/>
 3, After compile the files (never change PIN assignment), open the Programmer window from the Tool tub.<br/>
-4, Incorporate the output file into the window, <br/>
+4, Incorporate the output file into the window from the ADD FILE... button. <br/>
 5, <br/>
 6, <br/>
 <h2>Video (Demo)</h2>
