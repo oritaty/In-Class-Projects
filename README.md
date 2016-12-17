@@ -10,7 +10,7 @@ Description: Quiz application implemented by using VHDL and DE2-115 board.<br/>
 * **_Software_**: Windows or Linux operating system preffered, with Quartus II IDE (14.0 or later) as well as suitable Verilog compiler (Ex. iVerilog) downloaded.<br/>
 
 <h2>Instruction</h2>
-1) Downloads the whole project folder from https://github.com/oritaty/In-Class-Projects(Downloads .zip file from 'Clone or download' button located on top left corner).<br/>
+1) Downloads the whole project folder from https://github.com/oritaty/In-Class-Projects (Downloads .zip file from 'Clone or download' button located on top left corner).<br/>
 2) Unzip the folder.<br/>
 3) Open the project by choosing **_'top.qpf' file_**.<br/>
 4) On the Project Navigator located on left side of Quartus II IDE, double click the entry called **_'top'_**.<br/>
